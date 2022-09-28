@@ -8,7 +8,7 @@ const createSlides = (numOfSlides) => {
     const slide = document.createElement("img");
     slide.classList.add("slide");
     slide.xPos = i * 1000;
-    slide.src = `pic-${i}.png`;
+    slide.src = `images/pic-${i}.png`;
     slide.style.transform = `translateX(${slide.xPos}px)`;
     slideShowContainer.append(slide);
   }
